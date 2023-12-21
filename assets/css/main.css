@@ -52,3 +52,10 @@ button {
     background-color: #453cc6;
     transition: background-color 0.75s;
 }
+
+footer {
+    background: #181919;
+    padding: 7px 14px;
+    text-align: center;
+    font-size: 0.75em;
+}
