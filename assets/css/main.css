@@ -23,6 +23,10 @@ body {
     font-size: 0.9em;
 }
 
+#page-content {
+    opacity: 0.2;
+}
+
 .center-text {
     text-align: center;
 }
@@ -110,4 +114,34 @@ footer {
     padding: 7px 14px;
     text-align: center;
     font-size: 0.85em;
+}
+
+.welcome-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto auto;
+    max-width: 440px;
+    max-height: fit-content;
+    background: #212323;
+    border: solid 1px #453cc6;
+    border-radius: 4px;
+    padding: 25px;
+    box-shadow: 0 0 10px #544aea
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#close-btn {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
 }

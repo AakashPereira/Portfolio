@@ -6,49 +6,65 @@
         <link rel="stylesheet" href="/assets/css/main.css">
     </head>
     <body>
-        <div class="hero">
-            <div>
-                <h1>Aakash Pereira | Portfolio</h1>
-                <p>🚧 You're a bit early!</p>
+        <div id="page-content" role="main" tabindex="-1" inert>
+            <div class="hero">
+                <div>
+                    <h1>Aakash Pereira | Portfolio</h1>
+                    <p>🚧 You're a bit early!</p>
+                </div>
+                <button class="btn">🎲 Press Me</button>
             </div>
-            <button class="btn">🎲 Press Me</button>
-        </div>
-        <div class="section container center-text">
-            <h2>Latest Projects</h2>
-            <div class="project-container">
-                <div class="project-card rounded">
-                    <h3><span aria-hidden="true">👔</span> Personal Portfolio</h3>
-                    <img src="https://placehold.co/300x100/9e0740/FFFFFF/png?text=Personal+Portfolio" alt="" class="rounded">
-                    <p>My personal portfolio, built from the ground up, using HTML, CSS, JavaScript, and React (very soon). A private island on the world wide web
-                        to showcase my current and past projects and to use as an upskilling playground.
-                    </p>
-                    <a class="btn" href="#">View Project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="project-card rounded">
-                    <h3><span aria-hidden="true">💰</span>Client Sales Portal</h3>
-                    <img src="/assets/img/abilitynet-small.png" alt="" class="rounded">
-                    <p>A sales management system combined with a client sales portal, built with HTML, CSS, JavaScript, and PHP for my employer AbilityNet. The
-                        platform was built as part of a university final project.
-                    </p>
-                    <a class="btn" href="#">View Project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="project-card rounded">
-                    <h3><span aria-hidden="true">🕹️</span> Hive Gamurs</h3>
-                    <img src="/assets/img/hive-gamurs-small.png" alt="" class="rounded">
-                    <p>A social platform for professional and casual gamers around the world to find the latest news,
-                        videos, reviews, guides, and discussions all in one place! Built with HTML, CSS, Python, and Flask.
-                    </p>
-                    <a class="btn" href="#">View Project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <div class="section container center-text">
+                <h2>Latest Projects</h2>
+                <div class="project-container">
+                    <div class="project-card rounded">
+                        <h3><span aria-hidden="true">👔</span> Personal Portfolio</h3>
+                        <img src="https://placehold.co/300x100/9e0740/FFFFFF/png?text=Personal+Portfolio" alt="" class="rounded">
+                        <p>My personal portfolio, built from the ground up, using HTML, CSS, JavaScript, and React (very soon). A private island on the world wide web
+                            to showcase my current and past projects and to use as an upskilling playground.
+                        </p>
+                        <a class="btn" href="#">View Project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="project-card rounded">
+                        <h3><span aria-hidden="true">💰</span>Client Sales Portal</h3>
+                        <img src="/assets/img/abilitynet-small.png" alt="" class="rounded">
+                        <p>A sales management system combined with a client sales portal, built with HTML, CSS, JavaScript, and PHP for my employer AbilityNet. The
+                            platform was built as part of a university final project.
+                        </p>
+                        <a class="btn" href="#">View Project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="project-card rounded">
+                        <h3><span aria-hidden="true">🕹️</span> Hive Gamurs</h3>
+                        <img src="/assets/img/hive-gamurs-small.png" alt="" class="rounded">
+                        <p>A social platform for professional and casual gamers around the world to find the latest news,
+                            videos, reviews, guides, and discussions all in one place! Built with HTML, CSS, Python, and Flask.
+                        </p>
+                        <a class="btn" href="#">View Project <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
+            <div role="button" aria-label="Play Game" class="game-btn" id="gameBtn" tabindex="0">
+                🎲
+            </div>
+            <footer>Copyright © Aakash Pereira 2023. Built with 🍟 and 🍩.</footer>
         </div>
-        <div role="button" aria-label="Play Game" class="game-btn" id="gameBtn" tabindex="0">
-            🎲
+
+        <div id="welcome-modal" class="welcome-modal">
+            <div class="modal-header">
+                <h2>Let's slow down just a little bit</h2>
+                <div role="button" tabindex="0" aria-label="Close" id="close-btn"><i class="fa-solid fa-x"></i></div>
+            </div>
+            <img src="https://media.giphy.com/media/PnJZ3ujV7D5jEjGTWu/giphy.gif" alt="">
+            <p>You've come across my portfolio that is still under construction. So some things may not be finished
+                and you may encounter a few fun little bugs.</p>
+            <p>But you can still have a little sneak peak at what's being worked on!</p>
+            <a class="btn" href="https://github.com/aakashpereira" target="_blank" aria-label="GitHub (opens in a new tab)">GitHub Profile <i class="fa-solid fa-up-right-from-square"></i></a>
+            <a class="btn" href="https://www.linkedin.com/in/aakash-pereira/" target="_blank" aria-label="LinkedIn (opens in a new tab)">LinkedIn Profile <i class="fa-solid fa-up-right-from-square"></i></a>
         </div>
-        <footer>Copyright © Aakash Pereira 2023. Built with 🍟 and 🍩.</footer>
 
         <script src="https://kit.fontawesome.com/0593cf25df.js" crossorigin="anonymous"></script>
         <script src="/assets/js/game.js"></script>
+        <script src="/assets/js/modal.js"></script>
 
     </body>
 </html>
