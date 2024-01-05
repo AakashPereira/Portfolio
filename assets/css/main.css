@@ -57,13 +57,17 @@ body {
     border-radius: 4px;
 }
 
-.hero {
+.hero, .page-header {
     background: #181919;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding: 150px 20px;
+    padding: 120px 20px;
+}
+
+.page-header {
+    padding: 120px 20px 75px ;
 }
 
 .hero h1, .hero p {
