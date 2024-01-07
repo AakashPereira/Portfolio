@@ -132,7 +132,8 @@ footer {
     border: solid 1px #453cc6;
     border-radius: 4px;
     padding: 25px;
-    box-shadow: 0 0 10px #544aea
+    box-shadow: 0 0 10px #544aea;
+    display: none;
 }
 
 .modal-header {
