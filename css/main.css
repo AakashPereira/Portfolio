@@ -79,9 +79,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
     display: inline-block;
-    background-color: #544aea;
-    color: #FFF;
-    border: solid 2px #453cc6;
     border-radius: 5px;
     padding: 7px 14px;
     font-family: inherit;
@@ -89,8 +86,26 @@ h1, h2, h3, h4, h5, h6 {
     margin: 2px;
 }
 
-.btn:hover {
+.purple-btn {
+    background-color: #544aea;
+    color: #FFF;
+    border: solid 2px #453cc6;
+}
+
+.purple-btn:hover {
     background-color: #453cc6;
+    cursor: pointer;
+    transition: background-color 0.75s;
+}
+
+.inverse-btn {
+    background: #FFF;
+    color: #212323;
+    border: solid 2px #eceaea;
+}
+
+.inverse-btn:hover {
+    background: #eceaea;
     cursor: pointer;
     transition: background-color 0.75s;
 }
@@ -103,6 +118,38 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     background: #453cc6;
     padding: 120px 0 100px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.card {
+    border: solid 1px #454343;
+    max-width: 300px;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 0.85em;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+.bold-txt {
+    font-weight: bold;
+}
+
+.center-txt {
+    text-align: center;
 }
