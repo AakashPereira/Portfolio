@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     text-decoration: none;
     margin: 2px;
+    cursor: pointer;
 }
 
 .purple-btn {
@@ -94,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .purple-btn:hover {
     background-color: #453cc6;
-    cursor: pointer;
     transition: background-color 0.75s;
 }
 
@@ -106,7 +106,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .inverse-btn:hover {
     background: #eceaea;
-    cursor: pointer;
     transition: background-color 0.75s;
 }
 
@@ -119,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background: #453cc6;
+    background: #544aea;
     padding: 120px 0 100px;
 }
 
@@ -152,4 +151,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .center-txt {
     text-align: center;
+}
+
+.diceBtn {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #544aea;
+    box-shadow: 0 0 15px #FFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    user-select: none;
+}
+
+.diceBtnContent {
+    margin: auto;
+}
+
+footer {
+    background: #544aea;
+    padding: 7px 14px;
+    font-size: 0.80em;
+    text-align: center;
+}
+
+[role=button] {
+    cursor: pointer;
 }
