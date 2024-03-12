@@ -110,16 +110,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
+    max-width: 70%;
     padding: 20px 50px;
+    margin: 0 auto;
 }
 
 .hero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
     background: #544aea;
     padding: 120px 0 100px;
+}
+
+.hero-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .cards-container {
