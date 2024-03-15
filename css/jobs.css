@@ -4,9 +4,6 @@
     padding: 7px 14px;
     border-radius: 5px;
     margin: 15px 0;
-    border: 5px solid #FFF;
-    box-shadow: 0 0 0 10px #FFF inset;
-    box-sizing: border-box;
 }
 
 .job-card h3, .job-card h4 {
@@ -22,6 +19,7 @@
 .skills-container {
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
 }
 
 .skills-pill {
@@ -30,4 +28,6 @@
     padding: 7px 14px;
     color: #FFF;
     font-size: 0.85em;
+    flex-grow: 1;
+    text-align: center;
 }
