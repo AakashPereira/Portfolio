@@ -180,6 +180,30 @@ img {
     margin: auto;
 }
 
+.profile-card {
+    background: #FFF;
+    border: solid 2px #000;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.profile-card video {
+    max-width: 250px;
+}
+
+.profile-card-inner {
+    background: #000;
+    margin-bottom: 10px;
+}
+
+.profile-card-txt {
+    font-family: 'Just Handwritten', cursive;
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+}
+
 footer {
     background: #544aea;
     padding: 7px 14px;
