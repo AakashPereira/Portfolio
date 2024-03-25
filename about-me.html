@@ -4,6 +4,7 @@
         <title>About Me - Aakash Pereira | Personal Portfolio</title>
         <meta name="description" content="Learn more about Aakash Pereira, a mid-level Accessibility and Usability Consultant and a Computer Science graduate from City, University of London. Find out about my background, my latest projects, and what I'm working on right now.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0593cf25df.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/jobs.css">
     </head>
@@ -17,7 +18,15 @@
                     <li><a href="/portfolio.html">Portfolio</a></li>
                     <li><a href="/playground.html"><span aria-hidden="true">🎲</span> The Playground</a></li>
                 </ul>
-                <a class="btn inverse-btn" href="/contact.html">Contact Me</a>
+                <div>
+                    <a class="btn inverse-btn" href="/contact.html">Contact Me</a>
+                    <a class="btn inverse-btn" href="https://www.linkedin.com/in/aakash-pereira/" target="_blank" aria-label="Aakash Pereira LinkedIn">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a class="btn inverse-btn" href="https://www.instagram.com/aakash_pereira/" target="_blank" aria-label="Aakash Pereira Instagram">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
             </nav>
         </header>
         <main>
@@ -33,16 +42,36 @@
             </div>
 
             <div class="container">
+
+                <h2 class="center-txt">About Me</h2>
+                <div class="about-container">
+                    <div>
+                        <div class="profile-card rounded" aria-hidden="true">
+                            <div class="profile-card-inner rounded">
+                                <video autoplay muted playsinline>
+                                    <source src="/src/profile-card-vid.mov">
+                                </video>
+                            </div>
+                            <div class="profile-card-txt">
+                                Aakash Pereira
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-70">
+                        <p>Mid-Level Accessibility & Usability Consultant. Front-end development background. First-Class Honors Computer Science graduate, City, University of London.</p>
+                            
+                        <p>Experienced in completing website and app accessibility audits, rechecks and multi-language reviews against WCAG guidelines.</p>
+                    </div>
+                </div>
                 <h2 class="center-txt">Experience</h2>
-                    <div class="job-card">
+                <div class="job-container">
+                    <div class="card rounded">
                         <h3>Accessibility and Usability Consultant</h3>
                         <ul>
                             <li><span class="bold-txt">Company</span> - AbilityNet</li>
                             <li><span class="bold-txt">Time</span> - August 2020 - Present</li>
                         </ul>
-                        <p>I started as an Intern Accessibility & Usability Consultant at AbilityNet during my second year of university, as part of the Professional Pathway scheme at City, University of London. This scheme allowed me to work part-time and also complete university on a part-time basis.</p>
-                        <p>Diverging from the usual timeline, I was promoted early to the Junior Accessibility & Usability position whilst still studying at university. Once I graduated, I was promoted to the Mid-Level position. As part of my job, I complete website and app accessibility audits (including agile audit delivery), rechecks, and multi-language reviews against WCAG guidelines. I am also involved in working alongside the sales team to communicate with and identify the needs of clients to define work proposals.</p>
-    
+                        
                         <h4>Skills</h4>
                         <div class="skills-container">
                             <span class="skills-pill">HTML</span>
@@ -52,15 +81,13 @@
                             <span class="skills-pill">Accessibility Audits</span>
                         </div>
                     </div>
-                    <div class="job-card">
+                    <div class="card rounded">
                         <h3>Web Developer</h3>
                         <ul>
                             <li><span class="bold-txt">Company</span> - Hive Gamurs</li>
                             <li><span class="bold-txt">Time</span> - August 2017 - April 2021</li>
                         </ul>
-                        <p>I was the sole founder, developer, and writer for Hive Gamurs, a social networking platform for gamers. The platform was built from the ground up using Python and Flask, with a games database, blog, and forum implemented as base features on the site.</p>
-                        <p>Hive Gamurs was sold to Pardy Networks Ltd. in February 2018. I continued to work as a freelancer for the new owner, occasionally completing development tasks and writing news articles for the blog.</p>
-    
+                        
                         <h4>Skills</h4>
                         <div class="skills-container">
                             <span class="skills-pill">HTML</span>
@@ -70,16 +97,13 @@
                             <span class="skills-pill">Project Management</span>
                         </div>
                     </div>
-                    <div class="job-card">
+                    <div class="card rounded">
                         <h3>Administrative Assistant (Work Experience)</h3>
                         <ul>
                             <li><span class="bold-txt">Company</span> - The Diana Award</li>
                             <li><span class="bold-txt">Time</span> - 2 Weeks In June 2013</li>
                         </ul>
-                        <p>I completed two weeks of work experience at the Diana Award charity in June 2023. My main duty was to enter records stored as physical documents into the internal web platform.</p>
-                        <p>I was also involved in the preparation and setup of two anti-bullying events that took place during my time at the company. This involved researching a potential celebrity invitee list, initiating the initial communication with their agent, and helping with preparation and setup for the events.</p>
-                        <p>My time at the charity concluded with attending the final anti-bullying event at the Facebook Headquarters in London.</p>
-    
+                        
                         <h4>Skills</h4>
                         <div class="skills-container">
                             <span class="skills-pill">Data Entry</span>
@@ -89,6 +113,7 @@
                             <span class="skills-pill">Face-to-face Communication</span>
                         </div>
                 </div>
+            </div>
             </div>
 
             <div role="button" aria-label="Roll Dice" tabindex="0" id="dice-btn" class="diceBtn">
