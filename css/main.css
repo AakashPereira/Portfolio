@@ -131,6 +131,10 @@ img {
     flex-wrap: wrap;
 }
 
+.welcome-txt {
+    max-width: 50%;
+}
+
 .cards-container {
     display: flex;
     justify-content: center;
