@@ -16,5 +16,151 @@
 }
 
 body {
+    background: #212323;
+    color: #d3d4d4;
     font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: rgba(33, 35, 35, 0.5);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    margin: 0 auto;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    color: #d3d4d4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff397a;
+    transition: color 0.75s;
+}
+
+nav ul li a {
+    padding: 5px 10px;
+}
+
+.logo {
+    letter-spacing: 0.2em;
+    font-size: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px 25px;
+}
+
+.hero {
+    background: #544aea;
+    padding: 125px 50px 50px;
+}
+
+.hero-inner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0 25px;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 7px 21px;
+    text-decoration: none;
+    border: solid 1.5px;
+    font-size: 0.9em;
+}
+
+a.btn {
+    display: inline-block;
+}
+
+.purple-btn {
+    background: #544aea;
+    color: #d3d4d4;
+    border: 0;
+}
+
+.purple-btn:hover {
+    background: #453cc6;
+    color: inherit;
+    transition: background 0.75s;
+}
+
+.transparent-btn {
+    color: #d3d4d4;
+    border-color: #d3d4d4;
+}
+
+.transparent-btn:hover {
+    background: #d3d4d4;
+    color: #212323;
+    transition: background 0.75s;
+}
+
+footer {
+    background: #544aea;
+    padding: 25px 50px;
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.dropcap {
+    font-size: 3.5em;
+    float: left;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: solid 1px #454343;
+    padding: 7px 14px;
+    max-width: 300px;
+    font-size: 0.9em;
+}
+
+.card h3 {
+    font-weight: bold;
 }
