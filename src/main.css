@@ -1,0 +1,20 @@
+@font-face {
+    src: url("/assets/fonts/Manrope-Regular.ttf");
+    font-family: 'Manrope';
+}
+
+@font-face {
+    src: url("/assets/fonts/Manrope-ExtraLight.ttf");
+    font-family: 'Manrope';
+    font-weight: lighter;
+}
+
+@font-face {
+    src: url("/assets/fonts/Manrope-Bold.ttf");
+    font-family: 'Manrope';
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+}
