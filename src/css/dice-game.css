@@ -1,0 +1,23 @@
+.game-btn {
+    background: #544aea;
+    border: 0;
+    box-shadow: 0 0 10px #453cc6;
+    border-radius: 50%;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    font-size: 1.7em;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.game-btn:hover {
+    background: #453cc6;
+    transition: background 0.75s;
+}
+
+.game-btn-content {
+    margin: auto;
+}

@@ -22,13 +22,13 @@
 
 body {
     background: #212323;
-    color: #d3d4d4;
+    color: #EDF2F4;
     font-family: 'Manrope', system-ui, -apple-system, sans-serif;
     margin: 0;
 }
 
 header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     background: rgba(33, 35, 35, 0.5);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -36,8 +36,6 @@ header {
     -webkit-backdrop-filter: blur( 5px );
     margin: 0 auto;
     top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
 }
 
 nav {
@@ -56,13 +54,13 @@ nav ul li {
 }
 
 nav a {
-    color: #d3d4d4;
+    color: #EDF2F4;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ff397a;
+    color: #8179FF;
     transition: color 0.75s;
 }
 
@@ -86,8 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero {
-    background: #544aea;
-    padding: 125px 50px 50px;
+    background: #544AEA;
+    padding: 50px 0;
 }
 
 .hero-inner {
@@ -114,30 +112,39 @@ a.btn {
 }
 
 .purple-btn {
-    background: #544aea;
-    color: #d3d4d4;
+    background: #544AEA;
+    color: #EDF2F4;
     border: 0;
 }
 
 .purple-btn:hover {
-    background: #453cc6;
+    background: #453CC6;
     color: inherit;
     transition: background 0.75s;
 }
 
 .transparent-btn {
-    color: #d3d4d4;
-    border-color: #d3d4d4;
+    color: #EDF2F4;
+    border-color: #EDF2F4;
 }
 
 .transparent-btn:hover {
-    background: #d3d4d4;
+    background: #EDF2F4;
     color: #212323;
     transition: background 0.75s;
 }
 
+.header-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.social-btn {
+    padding: 7px 14px;
+}
+
 footer {
-    background: #544aea;
+    background: #544AEA;
     padding: 25px 50px;
     text-align: center;
     font-size: 0.85em;
@@ -186,7 +193,7 @@ col {
 }
 
 .profile-card {
-    background: #FFF;
+    background: #EDF2F4;
     border: solid 1.5px #000;
     display: flex;
     flex-direction: column;
@@ -204,4 +211,15 @@ col {
     font-size: 1.5em;
     font-weight: bold;
     font-family: 'ShadowsIntoLight', cursive;
+}
+
+.pill {
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 2.5px;
+    background: #ff397a;
+    color: #212323;
+    font-weight: bold;
+    font-size: 0.85em;
+    display: inline-block;
 }

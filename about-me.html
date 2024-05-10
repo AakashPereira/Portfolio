@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/0593cf25df.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/x-icon" href="favicon.ico?">
-        <link rel="stylesheet" href="/src/main.css">
+        <link rel="stylesheet" href="/src/css/main.css">
+        <link rel="stylesheet" href="/src/css/dice-game.css">
     </head>
     <body>
         <header class="rounded">
@@ -17,7 +18,11 @@
                     <li><a href="/portfolio.html">Portfolio</a></li>
                     <li><a href="/playground.html">Playground</a></li>
                 </ul>
-                <a href="/contact-me.html" class="btn purple-btn">Contact Me</a>
+                <div class="header-buttons">
+                    <a href="/contact-me.html" class="btn purple-btn">Contact Me</a>
+                    <a href="https://www.linkedin.com/in/aakash-pereira/" target="_blank" aria-label="Aakash Pereira LinkedIn" class="btn purple-btn social-btn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/aakash_pereira/" target="_blank" aria-label="Aakash Pereira LinkedIn" class="btn purple-btn social-btn"><i class="fa-brands fa-instagram"></i></a>
+                </div>
             </nav>
         </header>
         <main>
@@ -36,6 +41,12 @@
                     <div class="row">
                         <div class="col-2">
                             <h2>Who Am I?</h2>
+                            <div>
+                                <span class="pill">Mid-Level Accessibility & Usability Consultant</span>
+                                <span class="pill">Front-end development background</span>
+                                <span class="pill">First-Class Honors Computer Science graduate, City, University of London</span>
+
+                            </div>
                             <p>Accessibility & Usability Consultant. Frontend Developer.</p>
                         </div>
                         <div>
@@ -53,9 +64,13 @@
 
         </main>
 
+        <button id="game-btn" class="game-btn" aria-label="Play Dice Game"><span class="game-btn-content">🎲</span></button>
+
         <footer>
             Copyright © Aakash Pereira 2024. Powered by 🍟
         </footer>
+
+        <script src="/src/js/dice-game.js"></script>
         
     </body>
 </html>
