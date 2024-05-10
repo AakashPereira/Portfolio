@@ -217,9 +217,13 @@ col {
     border-radius: 20px;
     padding: 5px 10px;
     margin: 2.5px;
-    background: #ff397a;
-    color: #212323;
+    background: #544AEA;
     font-weight: bold;
     font-size: 0.85em;
     display: inline-block;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #8179FF
 }
