@@ -188,7 +188,7 @@ footer {
     flex-grow: 1.5;
 }
 
-col {
+.col {
     flex-grow: 1;
 }
 
@@ -226,4 +226,37 @@ col {
 .highlight {
     font-weight: bold;
     color: #8179FF
+}
+
+.hide-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.input-field {
+    margin: 10px 0;
+}
+
+.input-field label {
+    margin: 0 auto 5px;
+    width: 80%;
+    display: block;
+}
+
+.input-field input, .input-field textarea {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.input-field input, .input-field textarea {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.input-field textarea {
+    resize: none;
 }
