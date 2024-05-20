@@ -260,3 +260,11 @@ footer {
 .input-field textarea {
     resize: none;
 }
+
+.shadow-small {
+    box-shadow: 5px 5px 0 rgb(0 0 0 / 29%)
+}
+
+.shadow-large {
+    box-shadow: 7px 7px 0 rgb(0 0 0 / 29%);
+}
