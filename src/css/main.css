@@ -128,7 +128,7 @@ nav a {
 .btn-transparent {
     background: none;
     border: solid 2px #212323;
-    color: inherit;
+    color: #212323;
 }
 
 .btn-transparent-purple {
