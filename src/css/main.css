@@ -1,0 +1,149 @@
+@font-face {
+    src: url("/src/fonts/Manrope-Regular.ttf");
+    font-family: 'Manrope';
+}
+
+@font-face {
+    src: url("/src/fonts/Manrope-ExtraLight.ttf");
+    font-family: 'Manrope';
+    font-weight: lighter;
+}
+
+@font-face {
+    src: url("/src/fonts/Manrope-Bold.ttf");
+    font-family: 'Manrope';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url("/src/fonts/ShadowsIntoLight-Regular.ttf");
+    font-family: 'ShadowsIntoLight';
+}
+
+body {
+    background: #212323;
+    color: #d3d4d3;
+    margin: 0;
+    font-family: 'Manrope', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.alert {
+    padding: 7px 14px;
+    gap: 14px;
+}
+
+.alert-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.alert-warning {
+    background: rgb(238, 192, 25);
+    color: #212323;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 14px;
+}
+
+nav a {
+    color: #d3d4d3;
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu li a {
+    margin: 0px 14px;
+}
+
+.hero {
+    background: #282828;
+    padding: 14px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    padding: 14px;
+}
+
+.profile-card video {
+    max-width: 300px;
+}
+
+.profile-card-txt {
+    color: #212323;
+    font-weight: bold;
+    font-family: 'ShadowsIntoLight', cursive;
+    font-size: 1.5em;
+    margin-top: 14px;
+}
+
+.btn, button {
+    text-decoration: none;
+    padding: 7px 14px;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-transparent {
+    background: none;
+    border: solid 2px #212323;
+}
+
+.btn-transparent-purple {
+    border: solid 2px #8179ff;
+}
+
+.btn-purple-shadow {
+    background: #8179ff;
+    color: #212323;
+    box-shadow: 7px 7px #212323;
+}
+
+footer {
+    background: #8179ff;
+    color: #212323;
+    font-size: 0.85em;
+    text-align: center;
+    padding: 14px;
+}
