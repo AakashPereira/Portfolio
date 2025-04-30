@@ -10,14 +10,14 @@
         <div class="alert alert-warning" id="alert-el">
             <div class="container">
                 <div class="alert-body">
-                    <p><span class="bold">Development.</span> This portfolio is under construction and some pages may be unfinished!</p>
+                    <p><span class="bold" role="heading" aria-level="2">Development.</span> This portfolio is under construction and some pages may be unfinished!</p>
                     <button id="alert-close-btn" class="btn-transparent rounded" aria-label="Close alert">X</button>
                 </div>
             </div>
         </div>
         <header>
             <nav class="container">
-                <a href="/" class="logo">🥷 A P</a>
+                <a href="/" class="logo" aria-label="Aakash Pereira">🥷 A P</a>
                 <ul class="nav-menu">
                     <li><a href="/">Home</a></li>
                     <li><a href="#about-me">About Me</a></li>
@@ -31,8 +31,8 @@
             <div class="hero">
                 <div class="container hero-container">
                         <div>
-                            <h1><span class="bold">Aakash Pereira</span> | Personal Portfolio</h1>
-                            <a href="/projects" class="btn btn-purple-shadow rounded">View Projects</a>
+                            <h1><span role="text"><span class="bold">Aakash Pereira</span> | Personal Portfolio</span></h1>
+                            <a href="#projects" class="btn btn-purple-shadow rounded">View Projects</a>
                         </div>
         
                     <div class="profile-card rounded" aria-hidden="true">
@@ -47,7 +47,7 @@
 
             <section>
                 <div class="container">
-                    <h2>About Me</h2>
+                    <h2 id="about-me" tabindex="-1">About Me</h2>
                     <p>Welcome to the personal portfolio and playground of Aakash Pereira. Here you will find out a little bit about me, 
                     my latest projects and work, and a playground for me to practice my coding skills.</p>
                 </div>
@@ -55,13 +55,13 @@
 
             <section>
                 <div class="container">
-                    <h2>Projects</h2>
+                    <h2 id="projects" tabindex="-1">Projects</h2>
                 </div>
             </section>
 
             <section>
                 <div class="container">
-                    <h2>Contact Me</h2>
+                    <h2 id="contact" tabindex="-1">Contact Me</h2>
                 </div>
             </section>
         </main>
