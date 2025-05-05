@@ -141,6 +141,45 @@ nav a {
     box-shadow: 7px 7px #212323;
 }
 
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card {
+    border: solid 1px #3c4040;
+    padding: 14px;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.card p {
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+
+.social-links {
+    padding: 0;
+}
+
+.social-link {
+    display: inline;
+    list-style: none;
+    margin-right: 7px;
+}
+
+.social-link a {
+    text-decoration: none;
+}
+
+.fa-white {
+    color: #d3d4d3;
+}
+
 footer {
     background: #8179ff;
     color: #212323;
