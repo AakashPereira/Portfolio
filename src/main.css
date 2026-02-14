@@ -15,10 +15,130 @@
     font-weight: bold;
 }
 
+@font-face {
+    src: url("fonts/ShadowsIntoLight-Regular.ttf");
+    font-family: 'ShadowsIntoLight';
+}
+
 body {
-    font-family: 'Manrope';
+    font-family: 'Manrope', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: lighter;
+}
+
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 20px auto;
+    width: 75vw;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.51);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-radius: 10px;
+    padding: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-link {
+    color: #1C1C1C;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration-color: transparent;
+}
+
+.nav-link:hover {
+    /* text-decoration-style: wavy; */
+    color: #544aea;
+    text-decoration: underline 1.5px #544aea;
+    text-decoration-style: wavy;
+    text-underline-offset: 5px;
+    transition: text-decoration-color 0.75s;
+}
+
+.logo {
+    display: block;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    border: solid 2px #544aea;
+    color: #1C1C1C;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px 14px;
+}
+
+.btn-filled {
+    background: #FFF;;
+}
+
+.btn:hover {
+    background: #544aea;
+    transition: background 0.75s, color 0.75s;
+    color: #FFF;
+}
+
+.container {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.hero {
+    background: #FFFFFF63;
+    background-image: url("img/hero-bg.png");
+    background-blend-mode: lighten;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.hero-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    background: #FFF;
+    border-radius: 10px;
+    border: solid 1px #e3d8d8;
+    padding: 28px;
+}
+
+.profile-video {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.profile-text {
+    font-family: 'ShadowsIntoLight', cursive;
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: bold;
 }
