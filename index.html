@@ -23,10 +23,10 @@
                 <div class="container hero">
                     <div class="hero-inner">
                         <div>
-                            <h1>Aakash Pereira | Personal Portfolio</h1>
-                            <p class="bold">⚠️ This portfolio is still under construction. Please check back later!</p>
+                            <h1><span aria-hidden="true">👋</span> Hello, I'm <span class="highlight">Aakash Pereira</span></h1>
+                            <a href="/portfolio" class="btn btn-filled">View projects</a>
                         </div>
-                        <div class="profile-card">
+                        <div class="profile-card" aria-hidden="true">
                             <video class="profile-video" muted autoplay loop>
                                 <source src="src/profile-vid.mp4" tpye="mp4/video">
                             </video>
@@ -36,7 +36,41 @@
                 </div>
             </section>
 
+            <section>
+                <div class="container box">
+                    <h2><span aria-hidden="true">👷‍♂️</span> Latest Projects</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <img src="src/img/hivegamurs-cover-small.png" alt="Hive Gamurs" class="card-img">
+                            <p>A social platform for professional and casual gamers around the world to find the latest news, 
+                                videos, reviews, guides, and discussions all in one place! Built with HTML, CSS, Python, and Flask.</p>
+                            <a href="" class="btn btn-filled">View project <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card">
+                            <img src="src/img/an-cover-small.png" alt="Client Sales Portal" class="card-img">
+                            <p>A sales management system combined with a client sales portal, built with HTML, CSS, 
+                                JavaScript, and PHP for my employer AbilityNet. The platform was built for my university project.</p>
+                            <a href="" class="btn btn-filled">View project <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="card">
+                            <img src="src/img/portfolio-cover-small.png" alt="Personal Portfolio" class="card-img">
+                            <p>My personal portfolio, built from the ground up. A private island on the world wide web to showcase my 
+                                current and past projects and to use as an upskilling playground.</p>
+                            <a href="" class="btn btn-filled">View project <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
+
+        <footer>
+            <div class="container">
+                <span role="img" aria-label="Copyright">©</span> <span id="current-year"></span> Aakash Pereira. Created with 🍟
+            </div>
+        </footer>
+
+        <script src="src/main.js"></script>
+        <script src="https://kit.fontawesome.com/952bc5b239.js" crossorigin="anonymous"></script>
     </body>
 </html>
