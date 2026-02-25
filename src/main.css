@@ -38,7 +38,7 @@ header {
     margin: 20px auto;
     width: 75vw;
     height: fit-content;
-    background: rgba(255, 255, 255, 0.51);
+    background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -204,6 +204,7 @@ section {
 }
 
 .card p {
+    font-size: 0.9rem;
     text-align: justify;
     margin-top: 0;
 }
@@ -212,12 +213,6 @@ section {
     display: inline-block;
     width: 100%;
     box-sizing: border-box;
-}
-
-footer {
-    font-size: 0.9rem;
-    text-align: center;
-    padding: 14px;
 }
 
 .back-to-top-btn {
@@ -236,4 +231,26 @@ footer {
 .back-to-top-btn:hover {
     color: #423aba;
     transition: color 0.75s;
+}
+
+footer {
+    font-size: 0.9rem;
+    padding: 0 14px;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.social-link {
+    color: #544aea;
+    font-size: 1.5rem;
 }
