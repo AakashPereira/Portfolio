@@ -86,6 +86,7 @@ nav ul {
 .btn {
     border-radius: 10px;
     border: solid 2px #544aea;
+    background: #FFF;
     color: #1C1C1C;
     text-decoration: none;
     font-weight: bold;
@@ -217,4 +218,22 @@ footer {
     font-size: 0.9rem;
     text-align: center;
     padding: 14px;
+}
+
+.back-to-top-btn {
+    color: #544aea;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    font-size: 3rem;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+    scroll-behavior: smooth;
+}
+
+.back-to-top-btn:hover {
+    color: #423aba;
+    transition: color 0.75s;
 }
