@@ -1,0 +1,165 @@
+@font-face {
+    src: url("../fonts/Manrope-Regular.ttf");
+    font-family: 'Manrope';
+}
+
+@font-face {
+    src: url("../fonts/Manrope-Bold.ttf");
+    font-family: 'Manrope';
+    font-weight: bold;
+}
+
+@font-face {
+    src: url("../fonts/Manrope-ExtraLight.ttf");
+    font-family: 'Manrope';
+    font-weight: lighter;
+}
+
+body {
+    background: #1C1C1C;
+    color: #F5F4F4;
+    font-family: 'Manrope';
+    margin: 0;
+}
+
+.container {
+    padding: 7px 14px;
+}
+
+.header {
+    padding: 7px 14px;
+    border-bottom: solid 2px #2c2c2e;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+}
+
+.highlight {
+    color: #3D91FD;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.larger-menu {
+    display: none;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.main-nav li {
+    margin: 0 14px;
+}
+
+.main-nav a, .mobile-menu a {
+    color: #F5F4F4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover, .main-nav a:focus {
+    color: #3D91FD;
+    transition: color 0.9s;
+}
+
+.hidden {
+    display: none;
+}
+
+.push-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.btn {
+    border-radius: 7px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    border: solid 1px #2c2c2e;
+    color: #F5F4F4;
+}
+
+.btn-primary:hover {
+    background: #000;
+    transition: background 0.9s;
+}
+
+.hamburger-btn, .close-btn {
+    color: #FFF;
+    background: 0;
+    border: 0;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.mobile-menu {
+    border-bottom: solid 2px #2c2c2e;
+}
+
+.mobile-menu ul {
+    list-style: none;
+}
+
+.mobile-menu li {
+    margin: 10px 0;
+}
+
+.alert {
+    border-radius: 7px;
+    padding: 7px 14px;
+    text-align: center;
+}
+
+.alert-warning {
+    background: #FBF4E9;
+    border: solid 1px #efc279;
+    color: #2c2c2e;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.85rem;
+}
+
+/* Tablets & Laptops */
+
+@media (min-width: 769px) {
+    .hamburger-btn {
+        display: none;
+    }
+
+    .larger-menu {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .container {
+        max-width: 75rem;
+        margin: 0 auto;
+    }
+}
