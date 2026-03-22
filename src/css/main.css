@@ -28,7 +28,7 @@ body {
 
 .header {
     padding: 7px 14px;
-    border-bottom: solid 2px #2c2c2e;
+    /* border-bottom: solid 2px #2c2c2e; */
 }
 
 .flex {
@@ -111,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-.mobile-menu {
+.mobile-nav {
     border-bottom: solid 2px #2c2c2e;
 }
 
-.mobile-menu ul {
+.mobile-menu {
     list-style: none;
 }
 
