@@ -9,6 +9,9 @@
 
     <body>
         <div id="content">
+
+            <a href="#main" class="skip-to-link">Skip To Main Content</a>
+
             <header>
                 <div class="header">
                     <div class="container flex">
@@ -23,29 +26,50 @@
                                 </ul>
                             </nav>
                             <a href="#" class="btn btn-primary"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Contact Me</a>
-                            <button class="btn hamburger-btn" aria-label="Main Menu" id="hamburger-btn"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+                            <button class="btn hamburger-btn" aria-label="Main Menu" id="hamburger-btn" aria-expanded="false" aria-controls="mobile-menu"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
                         </div>
                     </div>
                 </div>
                 <nav class="mobile-nav">
                     <ul class="hidden mobile-menu" id="mobile-menu">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">About Me</a></li>
-                        <li><a href="/">Projects</a></li>
-                        <li><a href="/">Playground</a></li>
+                        <div class="container">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">About Me</a></li>
+                            <li><a href="/">Projects</a></li>
+                            <li><a href="/">Playground</a></li>
+                        </div>
                     </ul>
                 </nav>
             </header>
-            <main>
+
+            <main id="main">
                 <div class="container">
+
                     <section>
-                        <h1>Aakash Pereira | Personal Portfolio</h1>
-                        <div class="alert alert-warning" style="width: fit-content;">
-                            <i class="fa-solid fa-triangle-exclamation" role="img" aria-label="Warning"></i>
-                            <span class="bold">Under Construction!</span> This portfolio is still being developed. Come back later
+                        <div class="hero">
+                            <div>
+                                <h1>Aakash Pereira | Personal Portfolio</h1>
+                                <a href="/about-me" class="btn btn-secondary">Learn More <i class="fa-solid fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+
+                            <div aria-hidden="true">
+                                <div class="profile-card">
+                                    <div class="profile-video">
+                                        <video class="profile-video-el" autoplay muted loop tabindex="-1">
+                                            <source src="src/profile-vid.mp4" type="video/mp4">
+                                        </video>
+                                    </div>
+                                    <div class="profile-card-text">Aakash Pereira</div>
+                                </div>
+                            </div>
                         </div>
                     </section>
+
                     <section>
+                        <!-- <div class="alert alert-warning" style="width: fit-content;">
+                            <i class="fa-solid fa-triangle-exclamation" role="img" aria-label="Warning"></i>
+                            <span class="bold">Under Construction!</span> This portfolio is still being developed. Come back later
+                        </div> -->
                         <h2 class="m-b-0">Featured Projects</h2>
                         <p class="m-t-0 small-text">Check out my featured projects, worthwhile enough to be promoted on the homepage</p>
                         <div class="cards-container">
