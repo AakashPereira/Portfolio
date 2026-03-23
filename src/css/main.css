@@ -15,6 +15,11 @@
     font-weight: lighter;
 }
 
+@font-face {
+    src: url("../fonts/ShadowsIntoLight-Regular.ttf");
+    font-family: 'ShadowsIntoLight';
+}
+
 * {
     box-sizing: border-box;
 }
@@ -46,7 +51,7 @@ header {
     align-items: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-weight: lighter;
 }
 
@@ -201,8 +206,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 14px 0;
-    border: solid 2px #2c2c2e;
+    padding: 14px;
     border-radius: 7px;
     margin-bottom: 14px;
 }
@@ -218,14 +222,15 @@ footer {
 }
 
 .profile-video-el {
-    width: 330px;
+    max-width: 330px;
     border-radius: 7px;
 }
 
 .profile-card-text {
+    font-family: 'ShadowsIntoLight';
+    font-size: 1.5rem;
     color: #1C1C1C;
     margin-top: 14px;
-    font-family: cursive;
 }
 
 .card-heading {
